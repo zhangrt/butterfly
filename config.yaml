@@ -1,0 +1,4 @@
+port: :80
+conn: postgresql://root@localhost:26257/alien?sslmode=disable
+maxIdleConns: 10
+maxOpenConns: 100
